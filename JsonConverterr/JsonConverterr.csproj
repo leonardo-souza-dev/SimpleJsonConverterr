@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <PackageId>JsonConverterr</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>ltreze</Authors>
+    <Company>ltreze</Company>
   </PropertyGroup>
 
   <ItemGroup>
