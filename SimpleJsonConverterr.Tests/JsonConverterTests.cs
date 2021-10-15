@@ -1,7 +1,7 @@
-﻿using System.Linq;
-using NUnit.Framework;
+﻿using NUnit.Framework;
+using System.Linq;
 
-namespace JsonConverterr.Tests
+namespace SimpleJsonConverterr.Tests
 {
     public class JsonConverterTests
     {
@@ -12,6 +12,7 @@ namespace JsonConverterr.Tests
             var json = "{\"data\":\"2021-10-05T18:07:24+0200\"}";
 
             // act
+            var aAssert = JsonConverterr.Desserializarr<CustomTestClassComData>(json);
             var result = JsonConverterr.Desserializarr<CustomTestClassComData>(json);
 
             // assert

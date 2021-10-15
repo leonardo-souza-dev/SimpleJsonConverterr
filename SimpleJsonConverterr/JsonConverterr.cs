@@ -2,9 +2,9 @@ using System.IO;
 using System.Runtime.Serialization.Json;
 using System.Text;
 
-namespace JsonConverterr
+namespace SimpleJsonConverterr
 {
-    public static class JsonConverterr
+    public class JsonConverterr
     {
         public static T Desserializarr<T>(string body)
         {

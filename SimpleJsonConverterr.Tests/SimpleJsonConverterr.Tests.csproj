@@ -21,6 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\JsonConverterr\JsonConverterr.csproj" />
+    <ProjectReference Include="..\SimpleJsonConverterr\SimpleJsonConverterr.csproj" />
   </ItemGroup>
 </Project>

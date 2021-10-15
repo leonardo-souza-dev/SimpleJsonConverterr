@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace JsonConverterr.Tests
+namespace SimpleJsonConverterr.Tests
 {
     [DataContract]
     public class ClasseSimples
